@@ -45,7 +45,7 @@ from source.py.feature import (
 )
 
 
-FONT_VERSION = "v7.9"
+FONT_VERSION = "v7.91"
 # =========================================================================================
 
 
@@ -113,7 +113,7 @@ def parse_args(args: list[str] | None = None):
     parser.add_argument(
         "-v",
         "--version",
-        action="version",
+        action="version"，
         version=f"Maple Mono Builder v{FONT_VERSION}",
     )
     parser.add_argument(
